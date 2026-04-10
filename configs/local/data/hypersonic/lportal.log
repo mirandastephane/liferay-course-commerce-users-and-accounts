@@ -3437,3 +3437,14 @@ COMMIT
 DELETE FROM LAYOUT WHERE PLID=78 AND CTCOLLECTIONID=0
 INSERT INTO LAYOUT VALUES(73,0,'f2016530-be18-81cd-2024-56349c6b1658',78,32106,16796623585306,32252,'Walter Douglas','2024-08-28 21:11:51.465000','2026-04-10 00:05:45.920000',0,'0',50,0,0,0,'<?xml version=''1.0'' encoding=''UTF-8''?><root available-locales="en_US" default-locale="en_US"><Name language-id="en_US">Home</Name></root>','','',NULL,NULL,'content','layoutUpdateable=true\u000alfr-theme:regular:show-footer=false\u000alfr-theme:regular:show-header=false\u000alfr-theme:regular:show-header-search=false\u000alfr-theme:regular:wrap-widget-page-content=false\u000apublished=true\u000a','0','0','/home',0,'classic_WAR_classictheme','01','',0,'0',NULL,'2024-08-28 21:11:51.465000',NULL,0,32252,'Walter Douglas','2026-04-10 00:05:45.829000','f2016530-be18-81cd-2024-56349c6b1658',NULL,'a1e74f7a-f6c8-545f-721f-90561b9748fb',NULL,NULL,NULL,NULL)
 COMMIT
+/*C34*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C33*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C32*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C26*/INSERT INTO CONFIGURATION_ VALUES('com.liferay.account.configuration.AccountEntryAddressSubtypeConfiguration.scoped~1c78d54b-7224-48d4-8552-5b9b4d7c8d80',':org.apache.felix.configadmin.revision:=L"1"\u000d\u000abillingAddressSubtypeListTypeDefinitionExternalReferenceCode=""\u000d\u000abillingAndShippingAddressSubtypeListTypeDefinitionExternalReferenceCode=""\u000d\u000acompanyId=L"16796623585306"\u000d\u000aservice.bundleLocation="?"\u000d\u000aservice.factoryPid="com.liferay.account.configuration.AccountEntryAddressSubtypeConfiguration.scoped"\u000d\u000aservice.pid="com.liferay.account.configuration.AccountEntryAddressSubtypeConfiguration.scoped~1c78d54b-7224-48d4-8552-5b9b4d7c8d80"\u000d\u000ashippingAddressSubtypeListTypeDefinitionExternalReferenceCode="CLARITY_ERP_SUBTYPES"\u000d\u000a')
+COMMIT
+DELETE FROM CONFIGURATION_ WHERE CONFIGURATIONID='com.liferay.account.configuration.AccountEntryAddressSubtypeConfiguration.scoped~1c78d54b-7224-48d4-8552-5b9b4d7c8d80'
+INSERT INTO CONFIGURATION_ VALUES('com.liferay.account.configuration.AccountEntryAddressSubtypeConfiguration.scoped~1c78d54b-7224-48d4-8552-5b9b4d7c8d80',':org.apache.felix.configadmin.revision:=L"2"\u000d\u000abillingAddressSubtypeListTypeDefinitionExternalReferenceCode=""\u000d\u000abillingAndShippingAddressSubtypeListTypeDefinitionExternalReferenceCode=""\u000d\u000acompanyId=L"16796623585306"\u000d\u000aservice.bundleLocation="?"\u000d\u000aservice.factoryPid="com.liferay.account.configuration.AccountEntryAddressSubtypeConfiguration.scoped"\u000d\u000aservice.pid="com.liferay.account.configuration.AccountEntryAddressSubtypeConfiguration.scoped~1c78d54b-7224-48d4-8552-5b9b4d7c8d80"\u000d\u000ashippingAddressSubtypeListTypeDefinitionExternalReferenceCode="CLARITY_ERP_SUBTYPES"\u000d\u000a')
+COMMIT
